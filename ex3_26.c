@@ -14,6 +14,7 @@ int main(void)
 	// initialization phase
 	counter = 2;
 	secondLargest = 0;
+
 	// processing phase
 	printf("%s", "Enter the first number: "); // get first number
 	scanf("%d", &largest);
