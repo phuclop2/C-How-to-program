@@ -35,5 +35,5 @@ int main(void)
 		// prompt for next employess's data
 		printf("%s", "Enter number of hours worked (-1 to end): ");
 		scanf("%f", &hours);
-	}
+	} // end while
 } // end function main
