@@ -7,7 +7,7 @@
 int main(void)
 {	
 	unsigned int number; // define target number
-	unsigned int counter; // define counter
+	int counter; // define counter
 
 	printf("%s", "Enter the number: "); // prompt for user input
 	scanf("%u", &number); // read the number from user
