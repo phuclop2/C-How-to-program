@@ -22,5 +22,5 @@ int main(void)
 		} // end if
 
 		++number; // increment number
-	}
+	} // end while
 } // end function main
