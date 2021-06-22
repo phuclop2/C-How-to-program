@@ -16,9 +16,9 @@ int main(void)
 
 	// use Pythagorean Theorem
 	if (c* c == a * a + b * b) {
-		printf("The three numbers could be the sides of a triangle\n");
+		printf("The three numbers could be the sides of a right triangle\n");
 	} // end if
 	else {
-		printf("The three numbers probably are not the sides of a triangle\n");
+		printf("The three numbers probably are not the sides of a right triangle\n");
 	} // end else
 } // end function main
