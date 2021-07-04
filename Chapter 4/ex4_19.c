@@ -12,7 +12,7 @@ int main(void)
 
 	// prompt for input
 	printf("%s", "Enter pairs of item numbers and quantitites.\n");
-	printf("%s", "Enter EOF for the item number to end input.\n");
+	printf("%s", "Enter -1 for the item number to end input.\n");
 	scanf("%d", &product);
 
 	// loop while sentinel value not read from user
