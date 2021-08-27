@@ -8,12 +8,12 @@ int main(void)
 {
 	int i;		   // outer counter
 	int j;		   // inner counter
-	int factorial; // current factorial value
+	unsigned long long int factorial; // current factorial value
 
-	printf("%s", "X\tFactorial of X\n"); // display table headers
+	printf("%s", "x\tFactorial of x\n\n"); // display table headers
 
 	// compute the factorial from 1 to 5
-	for (i = 1; i <= 5; i++) {
+	for (i = 1; i <= 20; i++) {
 		factorial = 1;
 
 		// calculate factorial of current number
@@ -21,6 +21,6 @@ int main(void)
 			factorial *= j;
 		} // end inner for
 
-		printf("%d\t%d\n", i, factorial);
+		printf("%d\t%llu\n", i, factorial);
 	} // end outer for
 } // end main
