@@ -115,6 +115,7 @@ int main(void) {
 				break; // exit switch
 		} // end switch
 
-		printf("\t\t%d\n", loop);
+		if (loop == 88) printf("\t%d\n", loop);
+		else printf("\t\t%d\n", loop);
 	} // end for
 } // end function main
