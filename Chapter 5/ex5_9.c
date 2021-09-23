@@ -82,6 +82,10 @@ double calculateCharges(double hours)
 				charge = 3 * 50.0 + 0.5 * (hours + 24.0);
 			} // end else
 			break;
+
+		default: // 0 hour
+			charge = 0.0;
+			break;
 	} // end switch
 
 	return charge; // return calculated charge
