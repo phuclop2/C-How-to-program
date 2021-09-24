@@ -15,7 +15,7 @@ int main(void)
 	scanf("%lf %lf %lf", &a, &b, &c);
 
 	// use Pythagorean Theorem
-	if (c* c == a * a + b * b) {
+	if (c* c <= a * a + b * b) {
 		printf("The three numbers could be the sides of a triangle\n");
 	} // end if
 	else {
