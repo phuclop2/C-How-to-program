@@ -18,7 +18,7 @@ int main(void)
 		printf("%s", "Enter the sides of the triangle: ");
 		scanf_s("%lf%lf%lf", &side1, &side2, &side3);
 
-		// calculate and display hypotenuse value
+		// calculate and display area value
 		printf("Area: %.3f\n\n", calculateArea(side1, side2, side3));
 	} // end for
 	

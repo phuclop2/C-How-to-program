@@ -14,8 +14,8 @@ int main(void)
 	printf("%s", "Enter three doubling point numbers: ");
 	scanf("%lf %lf %lf", &a, &b, &c);
 
-	// use Pythagorean Theorem
-	if (c* c <= a * a + b * b) {
+	// check whether the numbers represent the sides of a triangle
+	if (c < a + b && a < b + c && b < a + c) {
 		printf("The three numbers could be the sides of a triangle\n");
 	} // end if
 	else {
